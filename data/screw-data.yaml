@@ -1,0 +1,13 @@
+train: ../Screw.v4-dataset/train/images
+val: ../Screw.v4-dataset/valid/images
+test: ../Screw.v4-dataset/test/images
+
+nc: 1
+names: ['Screw']
+
+roboflow:
+  workspace: elevator-0iq4p
+  project: screw-yquuz
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/elevator-0iq4p/screw-yquuz/dataset/4
